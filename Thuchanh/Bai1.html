@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo form cơ bản</title>
+    <style>
+      form {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>Order Form</h1>
+      <div>
+        <h3>What would you like to buy?</h3>
+        <select size="">
+          <option value="">A</option>
+          <option value="">B</option>
+          <option value="">C</option>
+        </select>
+      </div>
+      <div>
+        <h3>How many would you like to order?</h3>
+        <input type="radio" name="money" checked />1 - 10$ </br>
+        <input type="radio" name="money" />2 - 20$ </br>
+        <input type="radio" name="money" />3 - 30$</br>
+      <div>
+        <h3>Name
+            <label style="color: red;">*</label>
+        </h3>
+        <input type="text" placeholder="FirstName" required>
+        <input type="text" placeholder="LastName" required>
+      </div>
+      <div>
+        <h3>Email</h3>
+        <input type="email" placeholder="nguyenvanA@gmail.com" size="46">
+      </div>
+      <div>
+        <h3>Phone number</h3>
+        <input type="text" name="" id="" size="10"> -
+        <input type="text" name="" id="" size="10"> -
+        <input type="text" name="" id="" size="10">
+      </div>
+      <div>
+        <input type="submit" name="submit" id="" value="submit">
+      </div>
+    </form>
+  </body>
+</html>
